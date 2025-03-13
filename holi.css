@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+   
+}
+body{
+    /* background-color: blueviolet; */
+    margin: 0;
+    opacity: 20px;
+    background-image: url(images/holi6.jpg);
+    background-size: cover;
+    overflow: visible;
+}
+    
+.color-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.color{
+    gap: 15px;
+}
+.color1{
+    animation: rotateAnimation 2s linear infinite; 
+}
+
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.color1{
+   max-width:450px ;
+    max-height: 450px;
+    border-radius: 100%;
+    padding: 20px;
+   }
+   .rang{
+    justify-content: center;
+    text-align: center;
+   }
+   .rang1{
+    max-width:450px ;
+    max-height: 450px;
+    border-radius: 100%;
+    padding: 10px;
+    animation: rotateAnimation 2s linear infinite;
+   }
+   @keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+    
+h1{
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+    animation: colorChange 3s infinite alternate;
+}
+@keyframes colorChange {
+    0% { color: red; }
+    20% { color: orange; }
+    40% { color: yellow; }
+    60% { color: green; }
+    80% { color: blue; }
+    100% { color: violet; }
+}
+.color-p{
+    display: flex;
+   justify-content: center;
+   text-align: center;
+   color: rgb(255, 255, 255);
+   font-size: 30px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   /* .lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+  
+ 
+   
+  }
+  .color-pk{
+   background-image: url(images/holi7.jpg);
+   background-size: cover;
+   padding: 10px;
+   border-radius:150%
+  }
+  @media (max-width: 480px) {
+    .color-p{
+        width: 100%;
+        margin: 10px;
+        padding: 5px;
+    }
+    .color-pk{
+        padding: 5px;
+    }
+}
+.color-video{
+  
+    text-align: center;
+    margin-bottom: 15px;
+}
+.color-vid1{
+    width: 500px;
+    height: 500px;
+   
+}
+
+  
+@keyframes  moveRight {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }}
+
+.color-pk {
+    animation: moveRight 1.4s ;
+}
+.foot{
+    font-size: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+  .foot1{
+    
+    display: flex;
+   justify-content: center;
+  gap: 20px;
+    
+    } 
+ .foot2{
+    font-size: 40px;
+    color: #ddff005b;
+    text-decoration: none;
+    border-radius: 100%;
+ }  
+ 
+ 
+ .foot2:hover{
+    box-shadow: 0 0 20px #00ff00, 0 0 40px #00ffe5;
+ } 
+  
+
+
+
